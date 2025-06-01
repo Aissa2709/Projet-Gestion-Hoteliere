@@ -10,7 +10,7 @@ Il s'agit d'une application de gestion d'hôtel permettant de :
 
 ## 🎥 Vidéo de démonstration
 
-[Cliquer ici pour voir la video](https://drive.google.com/file/d/1Egghase4fu-WpNb7nnaeNX0ZBNHyJ-Um/view?usp=sharing))
+[Cliquer ici pour voir la video d'explication ](https://drive.google.com/file/d/1Egghase4fu-WpNb7nnaeNX0ZBNHyJ-Um/view?usp=sharing))
 
 > Cliquez sur l'image pour voir la démonstration du projet sur YouTube.
 

@@ -90,7 +90,6 @@ cursor.executemany("INSERT INTO Chambre VALUES (?, ?, ?, ?, ?, ?)", [
     (8, 101, 1, 0, 1, 1)
 ])
 
-# Table Reservation
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS Reservation (
     id INTEGER PRIMARY KEY,
@@ -111,7 +110,7 @@ cursor.executemany("INSERT INTO Reservation VALUES (?, ?, ?, ?)", [
     (10, '2026-02-01', '2026-02-05', 2)
 ])
 
-# Table ChambreReservation
+
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS ChambreReservation (
     chambre_id INTEGER,
@@ -126,7 +125,6 @@ cursor.executemany("INSERT INTO ChambreReservation VALUES (?, ?)", [
     (5, 5), (6, 7), (7, 9), (8, 10)
 ])
 
-# Table Evaluation
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS Evaluation (
     id INTEGER PRIMARY KEY,

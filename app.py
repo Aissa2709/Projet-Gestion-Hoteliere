@@ -10,20 +10,16 @@ SECONDARY = "#D4D4CE"
 BG = "#F6F6F6"
 DARK = "#023246"
 
-# Fonction pour lire l'image en base64
 def get_img_as_base64(file_path):
     with open(file_path, "rb") as f:
         data = f.read()
     return base64.b64encode(data).decode()
 
-# Connexion DB
 def connect_db():
     return sqlite3.connect("hotel.db")
 
-# Configuration de la page
 st.set_page_config(page_title="Gestion Hôtel", layout="wide")
 
-# Charger image de fond
 if os.path.exists("hotel_bg.jpg"):
     img_bg = get_img_as_base64("hotel_bg.jpg")
     st.markdown(f"""
